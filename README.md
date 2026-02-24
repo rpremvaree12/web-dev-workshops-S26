@@ -37,10 +37,13 @@ How does a webpage go from code on a screen to something anyone in the world can
 **You'll learn:** HTML tags (`h1`, `p`, `img`, `a`), how to preview a page in the browser, and how to navigate Codespaces.
 
 **End of session — save your work:**
-1. Click the **Source Control** icon in the left sidebar <img src="images/source-control.png" height="30">
+1. Click the **Source Control** icon in the left sidebar. <img src="images/source-control.svg" height="25">
 2. Hover over **Changes** and click the **+** to stage all your files
 3. Type a commit message like `add about me page` and click **Commit**
 4. Click **Sync Changes** to push to GitHub
+5. Since this is the first time you will need to type this once in the terminal:  
+`git push -u origin main`  
+This tells Git where to send your changes. After running it once, the Sync Changes button will work on its own for every session going forward.
 
 </details>
 
